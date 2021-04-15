@@ -1,0 +1,33 @@
+PROJECT NAME:- 
+Restaurant Management System
+
+DESCRIPTION:- 
+The purpose of this project was to calculate the total cost of the items ordered in a restaurant, by pressing the buttons created on the frame.
+
+ABOUT THE PROJECT:- 
+*I imported a module named "tkinter" to make designing and frames like text boxes, labels buttons etc.  
+
+*Size of the form was made by using a component called "root.geometry", and was shown by 
+ "root.mainloop()". Also, to have this form page on the full screen, I used   
+ "root.state('zoomed')".
+
+*Buttons were created on root, having various texts like "login", "id", "password", etc, followed by 
+ another component called "pack()", used to pack it.
+
+*Now, to make the buttons work, I made a function "def()", and called that function.
+
+*To make a textbox, I used "Entry(root)".
+
+*"Label" was made to give caption for the textbox.
+
+*For coloring and background designs, I used various components like "bg", "fg", "font" etc.
+
+*I also imported datetime. "time.asctime" takes the local time from our 
+ system.
+
+*Then, various variables were taken for costing of items.
+
+*For calculation, a reference no. is automatically generated, by using 
+ "random.randint". Here, "else-if" statement was also used, so that if 
+ no order was made, then it's value becomes zero.
+
